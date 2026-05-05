@@ -195,7 +195,7 @@ public class Knapsack {
  * 
  * Items taken: Book + Laptop = value 16 ✅
  * 
- * What to say on interview:
+ * What to say on interview:                
  * 
  * "0/1 Knapsack is the classic DP problem. The key insight is: for each item I have exactly two choices — take it or skip it. I build a 2D table where dp[i][w] stores the maximum value using the first i items with capacity w. Each cell is max(skip, take). Skip copies the row above. Take adds the current item's value plus the best solution for the remaining capacity. Time complexity O(n × W), space O(n × W). I can optimize space to O(W) using a single 1D array filled from right to left — this avoids using the same item twice."
  */
