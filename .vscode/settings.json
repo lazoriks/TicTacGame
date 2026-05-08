@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.defaultFormatter": "GitHub.copilot-chat",
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Google Colab Dark Theme"
+}
